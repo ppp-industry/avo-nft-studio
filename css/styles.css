@@ -493,6 +493,7 @@ p.description-focus:before {
 /* Intro */
 .intro {
     padding-top: 165px;
+    padding-bottom: 144px;
     position: relative;
     z-index: 1;
     display: flex;
@@ -547,10 +548,6 @@ p.description-focus:before {
 
 /* About Project */
 
-.about-project {
-    padding-top: 144px;
-}
-
 .about-project__wrapper {
     display: flex;
     justify-content: space-between;
@@ -601,7 +598,7 @@ p.description-focus:before {
 /* Developed AVO */
 
 .developed-avo {
-    padding: 182px 0 0;
+    padding: 182px 0 116px;
 }
 
 .developed-avo__heading {
@@ -809,11 +806,6 @@ p.description-focus:before {
 }
 
 /* Benefits */
-
-.benefits {
-    padding-top: 116px;
-}
-
 .benefits__top-desc {
     background: radial-gradient(
             90.16% 143.01% at 15.32% 21.04%,
@@ -2278,6 +2270,8 @@ h2.head:after,
             rgba(21, 21, 21, 0.3) 60%,
             rgba(255, 255, 255, 0.3) 100%
     );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
     mask-composite: exclude;
     z-index: -1;
 }
@@ -2616,11 +2610,11 @@ h2.head:after,
     }
 
     .about-project {
-        padding: 144px 15px 0;
+        padding: 0 15px;
     }
 
     .developed-avo {
-        padding: 140px 15px 0;
+        padding: 140px 15px 100px;
     }
 
     .developed-avo__item--big .developed-avo__item__image img {
@@ -2771,10 +2765,6 @@ h2.head:after,
 }
 
 @media (max-width: 768px) {
-    .benefits__top-desc {
-        padding: 13px;
-    }
-
     .block-name {
         font-size: 16px;
     }
@@ -2943,15 +2933,9 @@ h2.head:after,
 }
 
 @media (max-width: 576px) {
-    .about-project {
-        padding-top: 80px;
-    }
-
     .intro {
-        padding-bottom: 175px;
+        padding-bottom: 255px;
     }
-
-
 
     .intro > img {
         bottom: -150px;

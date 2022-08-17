@@ -1332,7 +1332,7 @@ p.description-focus:before {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #ffff2f url('../images/icon-link.svg') no-repeat center;
+    background: #ffff2f;
     position: absolute;
     left: 0;
     top: 50%;
@@ -2284,7 +2284,7 @@ h2.head:after,
             rgba(21, 21, 21, 0.3) 60%,
             rgba(255, 255, 255, 0.3) 100%
     );
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff, 0, 0) content-box, linear-gradient(#fff, 0, 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     z-index: -1;

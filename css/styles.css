@@ -1,13 +1,10 @@
 /* Global */
 @font-face {
     font-family: 'Bicubik';
-    src: url('../fonts/Bicubik.eot');
-    src: local('../fonts/Bicubik'),
-    url('../fonts/Bicubik.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Bicubik.woff') format('woff'),
-    url('../fonts/Bicubik.ttf') format('truetype');
+    url('../fonts/Bicubik.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -15,7 +12,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Nasalization'),
-    url('../fonts/nasalization rg.woff') format('woff');
+    url('../fonts/nasalization rg.woff2') format('woff2');
+    font-display: swap;
 }
 
 * {

@@ -367,6 +367,7 @@ p.description-focus:before {
 }
 
 .link-section > img {
+    width: 43px;
     margin-left: 15px;
     transition: all 0.5s;
 }
@@ -420,6 +421,7 @@ p.description-focus:before {
 
 .header__btn img {
     margin-left: 5px;
+    width: 33px;
 }
 
 .header__link {
@@ -545,6 +547,7 @@ p.description-focus:before {
 }
 
 .intro > img {
+    width: 577px;
     position: absolute;
     right: 0;
     top: 165px;
@@ -561,6 +564,7 @@ p.description-focus:before {
 }
 
 .about-project__wrapper > img {
+    width: 375px;
     min-width: 375px;
 }
 
@@ -971,6 +975,10 @@ p.description-focus:before {
     position: relative;
     border-radius: 8px;
     border: 2px solid rgba(152, 249, 255, 0.4);
+}
+
+.team__item.empty img {
+    width: 134px;
 }
 
 .team__item.empty .team__img {
@@ -2679,6 +2687,10 @@ h2.head:after,
     .intro__btn {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .intro__btn img {
+        width: 33px;
     }
 
     .intro__img:nth-child(4) {

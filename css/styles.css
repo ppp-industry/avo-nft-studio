@@ -546,7 +546,7 @@ p.description-focus:before {
     line-height: 20px;
 }
 
-.intro > img {
+.intro > picture img {
     width: 577px;
     position: absolute;
     right: 0;
@@ -2770,7 +2770,7 @@ h2.head:after,
         padding-top: 100px;
     }
 
-    .intro > img {
+    .intro > picture img {
         width: 400px;
         z-index: -1;
         top: auto;
@@ -2951,7 +2951,7 @@ h2.head:after,
         padding-bottom: 255px;
     }
 
-    .intro > img {
+    .intro > picture img {
         bottom: -150px;
     }
 

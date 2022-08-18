@@ -1,15 +1,15 @@
 .title > span {
-    text-shadow: 0 0 1421px #ffffff !important;
+    text-shadow: none !important;
 }
 
 
 
 @media (max-width: 768px) {
     .title > span:nth-of-type(1) {
-        text-shadow: 0 0 1421px #ffffff !important;
+        text-shadow: none !important;
     }
 
     .title > span:nth-of-type(2) {
-        text-shadow: 0 0 1421px #ffffff !important;
+        text-shadow: none !important;
     }
 }

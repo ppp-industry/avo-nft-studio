@@ -299,8 +299,6 @@ html {
     -webkit-appearance: none;
     appearance: none;
     font-family: 'Nasalization', sans-serif;
-    -webkit-box-shadow: 0 0 1421px #ffffff, 0 0 812px #ffffff, 0 0 474px #ffffff,
-    0 0 237px #ffffff, 0 0 68px #ffffff, 0 0 34px #ffffff;
     text-shadow: 0 0 1421px #ffffff, 0 0 812px #ffffff, 0 0 474px #ffffff,
     0 0 237px #ffffff, 0 0 68px #ffffff, 0 0 34px #ffffff;
 }

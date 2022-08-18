@@ -3008,6 +3008,10 @@ h2.head:after,
         margin-bottom: 25px;
     }
 
+    .intro__title br {
+        display: none;
+    }
+
     .intro__desc:after {
         display: none;
     }

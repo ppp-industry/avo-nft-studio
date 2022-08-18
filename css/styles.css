@@ -3003,6 +3003,9 @@ h2.head:after,
 
     .intro__title {
         line-height: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
     }
 
     .intro__desc:after {

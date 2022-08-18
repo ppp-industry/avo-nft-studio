@@ -121,6 +121,9 @@ html {
             rgba(255, 255, 255, 0.2) 0%,
             rgba(255, 255, 255, 0) 100%
     );
+    -webkit-backdrop-filter: blur(46px);
+    -ms-backdrop-filter: blur(46px);
+    -moz-backdrop-filter: blur(46px);
     backdrop-filter: blur(46px);
     border-radius: 100px;
     border: 2px solid rgba(165, 239, 255, 0.2);
@@ -132,6 +135,9 @@ html {
 
 .callback-modal button {
     background: rgba(195, 222, 25, 0.25);
+    -webkit-backdrop-filter: blur(42px);
+    -ms-backdrop-filter: blur(42px);
+    -moz-backdrop-filter: blur(42px);
     backdrop-filter: blur(42px);
     border-radius: 100px;
     width: 215px;
@@ -216,6 +222,9 @@ html {
             rgba(255, 255, 255, 0.2) 0%,
             rgba(255, 255, 255, 0) 100%
     );
+    -webkit-backdrop-filter: blur(42px);
+    -ms-backdrop-filter: blur(42px);
+    -moz-backdrop-filter: blur(42px);
     backdrop-filter: blur(42px);
     color: #fff;
     border: 1px solid rgba(9, 56, 223, 0.2);
@@ -257,6 +266,9 @@ html {
             rgba(88, 123, 84, 0.8) 1.23%,
             rgba(227, 251, 76, 0.8) 100.39%
     );
+    -webkit-backdrop-filter: blur(9px);
+    -ms-backdrop-filter: blur(9px);
+    -moz-backdrop-filter: blur(9px);
     backdrop-filter: blur(9px);
     border-radius: 60px;
     font-weight: 500;
@@ -395,6 +407,9 @@ p.description-focus:before {
 
 .header.header__fixed {
     background: rgba(255, 255, 255, 0.16);
+    -webkit-backdrop-filter: blur(15px);
+    -ms-backdrop-filter: blur(15px);
+    -moz-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
 }
 
@@ -637,7 +652,12 @@ p.description-focus:before {
             rgba(70, 144, 213, 0) 100%
     );
     background-blend-mode: overlay, normal;
+    -webkit-filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
+    -moz-filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
     filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
+    -webkit-backdrop-filter: blur(80px);
+    -ms-backdrop-filter: blur(80px);
+    -moz-backdrop-filter: blur(80px);
     backdrop-filter: blur(80px);
     border-radius: 8px;
     border: 2px solid rgba(152, 249, 255, 0.2);
@@ -659,6 +679,9 @@ p.description-focus:before {
     right: 0;
     bottom: 9px;
     background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    -ms-backdrop-filter: blur(12px);
+    -moz-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     width: 60px;
     font-family: 'Nasalization', sans-serif;
@@ -710,6 +733,9 @@ p.description-focus:before {
     text-transform: uppercase;
     color: #000000;
     background: #f7ef7c;
+    -webkit-backdrop-filter: blur(9px);
+    -ms-backdrop-filter: blur(9px);
+    -moz-backdrop-filter: blur(9px);
     backdrop-filter: blur(9px);
     border-radius: 60px;
     padding: 4px 9px;
@@ -801,6 +827,9 @@ p.description-focus:before {
     );
     box-shadow: inset -5px -4px 40px rgba(214, 214, 214, 0.25),
     inset 5px 4px 40px rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(25px);
+    -ms-backdrop-filter: blur(25px);
+    -moz-backdrop-filter: blur(25px);
     backdrop-filter: blur(25px);
     width: 40px;
     height: 40px;
@@ -824,7 +853,12 @@ p.description-focus:before {
             rgba(70, 144, 213, 0) 100%
     );
     background-blend-mode: overlay, normal;
+    -webkit-filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
+    -moz-filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
     filter: drop-shadow(2px 16px 19px rgba(0, 0, 0, 0.09));
+    -webkit-backdrop-filter: blur(80px);
+    -ms-backdrop-filter: blur(80px);
+    -moz-backdrop-filter: blur(80px);
     backdrop-filter: blur(80px);
     border-radius: 8px;
     padding: 13px 148px 13px 18px;
@@ -852,6 +886,9 @@ p.description-focus:before {
             rgba(255, 255, 255, 0) 100%
     );
     background-blend-mode: overlay, normal;
+    -webkit-backdrop-filter: blur(12px);
+    -ms-backdrop-filter: blur(12px);
+    -moz-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border-radius: 9px;
     width: 267px;
@@ -939,6 +976,9 @@ p.description-focus:before {
             rgba(255, 255, 255, 0) 100%
     );
     background-blend-mode: overlay, normal;
+    -webkit-backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 8px;
     min-height: 276px;
@@ -1151,6 +1191,9 @@ p.description-focus:before {
             rgba(255, 255, 255, 0) 100%
     );
     background-blend-mode: overlay, normal;
+    -webkit-backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 8px;
     text-decoration: none;
@@ -2557,6 +2600,9 @@ h2.head:after,
         transform: translateX(-500px);
         position: fixed;
         background: rgba(28, 72, 64, 1);
+        -webkit-backdrop-filter: blur(15px);
+        -ms-backdrop-filter: blur(15px);
+        -moz-backdrop-filter: blur(15px);
         backdrop-filter: blur(15px);
         width: 275px;
         height: 100vh;

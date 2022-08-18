@@ -2,8 +2,6 @@
     text-shadow: none !important;
 }
 
-
-
 @media (max-width: 768px) {
     .title > span:nth-of-type(1) {
         text-shadow: none !important;

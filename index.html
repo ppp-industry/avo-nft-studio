@@ -1434,6 +1434,13 @@
                     link.setAttribute("href", "css/styles-safari.css");
                     document.querySelector("head").appendChild(link);
                 }
+                if (get_browser()["name"] === "Firefox") {
+                    let link = document.createElement("link");
+                    link.setAttribute("rel", "stylesheet");
+                    link.setAttribute("media", "all");
+                    link.setAttribute("href", "css/styles-firefox.css");
+                    document.querySelector("head").appendChild(link);
+                }
             });
         </script>
     </body>

@@ -1310,11 +1310,7 @@ p.description-focus:before {
 
 .modal-backdrop.show {
     opacity: 1;
-    background: linear-gradient(
-            152.97deg,
-            rgba(255, 255, 255, 0.0252) 0%,
-            rgba(255, 255, 255, 0.027) 100%
-    );
+    background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.0252) 0%, rgba(255, 255, 255, 0.027) 100%);
     backdrop-filter: blur(42px);
     -webkit-backdrop-filter: blur(42px);
     -ms-backdrop-filter: blur(42px);
@@ -2478,116 +2474,6 @@ h2.head:after,
     }
 }
 
-/* Modal */
-.modal {
-    z-index: 10060;
-}
-
-.modal-backdrop {
-    z-index: 10040;
-}
-
-.modal-backdrop.show {
-    opacity: 1;
-    background: linear-gradient(
-            152.97deg,
-            rgba(255, 255, 255, 0.0252) 0%,
-            rgba(255, 255, 255, 0.027) 100%
-    );
-    backdrop-filter: blur(42px);
-    -webkit-backdrop-filter: blur(42px);
-    -ms-backdrop-filter: blur(42px);
-    -moz-backdrop-filter: blur(42px);
-}
-
-.modal-content {
-    background: none;
-    border: none;
-    border-radius: 0;
-    padding: 0 100px;
-}
-
-.modal-header {
-    padding: 100px 0 20px 0;
-    border: none;
-    position: relative;
-}
-
-.modal-title {
-    font-size: 250%;
-    font-family: 'Nasaliza', Arial, Helvetica, sans-serif;
-    color: #f7ef7c;
-    position: relative;
-}
-
-.modal-body {
-    padding: 0;
-}
-
-.modal .btn-close {
-    opacity: 1;
-    font-size: 150%;
-    filter: invert(1) grayscale(100%) brightness(200%);
-    position: absolute;
-    right: -85px;
-    top: 0;
-}
-
-.modal-content .head-link {
-}
-
-.modal-content .head-link a {
-    position: relative;
-    padding-left: 40px;
-    text-transform: uppercase;
-    color: #f7ef7c;
-}
-
-.modal-content .intro-text {
-    font-weight: 700;
-}
-
-.modal-content .head-link + .intro-text,
-.modal-content .head-link + .content-block {
-    margin-top: 35px;
-}
-
-.modal-content .content-block {
-    margin-top: 25px;
-}
-
-.modal-header .nav-prev {
-    left: -115px;
-    top: 115px;
-}
-
-.modal-header .nav-next {
-    right: -115px;
-    top: 115px;
-}
-
-.modal-header .nav-next span {
-    left: -240px;
-}
-
-.modal-header .nav-prev:before,
-.modal-header .nav-next:before {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
-
-.modal-header .nav-prev:before {
-    border-width: 16px 22px 16px 0;
-    border-color: transparent #ffffff transparent transparent;
-}
-
-.modal-header .nav-next:before {
-    border-width: 16px 0 16px 22px;
-    border-color: transparent transparent transparent #ffffff;
-}
 
 /* Adaptive */
 

@@ -148,30 +148,20 @@ function get_browser() {
     };
 }
 
-(function() {
-    scrollTo();
-})();
+const links = document.querySelectorAll('a[href*="#"]');
 
-function scrollTo() {
-    const links = document.querySelectorAll('.scroll');
-    links.forEach(each => (each.onclick = scrollAnchors));
-}
+links.forEach(link => link.addEventListener('click', smoothScroll));
 
-function scrollAnchors(e, respond = null) {
-    const distanceToTop = el => Math.floor(el.getBoundingClientRect().top) - 80;
+function smoothScroll(e) {
     e.preventDefault();
-    var targetID = (respond) ? respond.getAttribute('href') : this.getAttribute('href');
-    const targetAnchor = document.querySelector(targetID);
-    if (!targetAnchor) return;
-    const originalTop = distanceToTop(targetAnchor);
-    window.scrollBy({ top: originalTop, left: 0, behavior: 'smooth' });
-    const checkIfDone = setInterval(function() {
-        const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
-        if (distanceToTop(targetAnchor) === 0 || atBottom) {
-            targetAnchor.tabIndex = '-1';
-            targetAnchor.focus();
-            window.history.pushState('', '', targetID);
-            clearInterval(checkIfDone);
-        }
-    }, 100);
+    const href = this.getAttribute('href');
+    const offsetTop = document.querySelector(href).offsetTop - 100;
+    document.querySelector('body').style.overflow = 'initial';
+    burger.classList.remove('active');
+    header.classList.remove('open');
+
+    scroll({
+        top: offsetTop,
+        behavior: 'smooth'
+    });
 }
